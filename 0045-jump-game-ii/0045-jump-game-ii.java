@@ -5,9 +5,11 @@ class Solution {
         Arrays.fill(li, -1);
         for (int i=0; i<n; i++){
             for (int j=1; j<=nums[i]& (j+i<n) ; j++){
-                if (li[i+j]==-1)
+            if (li[i+j]==-1)
                 li[i+j]=i;
             }
+            if ((i+nums[i])>=n)
+            break;
         }
         int ans=0;
         int i=n-1;
