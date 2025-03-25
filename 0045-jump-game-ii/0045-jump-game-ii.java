@@ -1,23 +1,20 @@
 class Solution {
     public int jump(int[] nums) {
+        int jump = 0;
         int n = nums.length;
-        int [] li = new int[n];
-        Arrays.fill(li, -1);
-        for (int i=0; i<n; i++){
-            for (int j=1; j<=nums[i]& (j+i<n) ; j++){
-            if (li[i+j]==-1)
-                li[i+j]=i;
+        int lastJump = 0;
+        int reach = 0;
+        for (int i = 0; i < n - 1; i++) {
+            // reach = Math.max(reach, nums[i] + i * ((nums[i] == 0) ? 0 : 1));
+            reach = Math.max(reach, nums[i] + i);
+            if (i == lastJump) {
+                lastJump = reach;
+                jump++;
+                if (lastJump >= n-1)
+                break;
             }
-            if ((i+nums[i])>=n)
-            break;
         }
-        int ans=0;
-        int i=n-1;
-        while (i>0){
-            i = li[i];
-            ans++;
-        }
-        System.out.println(Arrays.toString(li));
-        return ans;
+        return jump;
+
     }
 }
