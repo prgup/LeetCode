@@ -38,4 +38,16 @@
 |  |
 | ------- |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+## Tree
+|  |
+| ------- |
+| [0774-maximum-depth-of-n-ary-tree](https://github.com/prgup/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0774-maximum-depth-of-n-ary-tree](https://github.com/prgup/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0774-maximum-depth-of-n-ary-tree](https://github.com/prgup/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
 <!---LeetCode Topics End-->
