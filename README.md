@@ -30,6 +30,7 @@
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
+| [2001-jump-game-vii](https://github.com/prgup/LeetCode/tree/master/2001-jump-game-vii) |
 ## Greedy
 |  |
 | ------- |
@@ -50,4 +51,16 @@
 |  |
 | ------- |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/prgup/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
+## String
+|  |
+| ------- |
+| [2001-jump-game-vii](https://github.com/prgup/LeetCode/tree/master/2001-jump-game-vii) |
+## Sliding Window
+|  |
+| ------- |
+| [2001-jump-game-vii](https://github.com/prgup/LeetCode/tree/master/2001-jump-game-vii) |
+## Prefix Sum
+|  |
+| ------- |
+| [2001-jump-game-vii](https://github.com/prgup/LeetCode/tree/master/2001-jump-game-vii) |
 <!---LeetCode Topics End-->
