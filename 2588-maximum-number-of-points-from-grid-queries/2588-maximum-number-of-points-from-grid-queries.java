@@ -9,7 +9,7 @@ class Solution {
         li = Arrays.copyOf(queries,k);
         Arrays.sort(li);
         System.out.println(Arrays.toString(li));
-        Queue <Integer []> queue = new PriorityQueue<>(Comparator.comparingInt(a->a[0]));
+        Queue <Integer []> queue = new PriorityQueue<>((a,b) -> a[0]-b[0]);
         queue.add(new Integer[] {grid[0][0], 0,0});
         count(grid, map, li, queue);
         x=0;
