@@ -1,28 +1,24 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, (a,b) -> (a[0]- b[0]));
-        ArrayList <int [] > ans = new ArrayList<>();
-        int left = intervals[0][0], right= intervals[0][1];
-        for (int i=1; i<intervals.length; i++){
-            int l1= intervals[i][0], r1=intervals[i][1];
-            if (right>=l1){
-                right=Math.max(right, r1);
+         if (intervals.length == 0) return new int[0][];
+        
+        // Sort intervals based on start time
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0])); // (a, b) -> (a[0] - b[0]) (avoids integer overflow issues).
+        ArrayList<int[]> merged = new ArrayList<>();
+        int[] current = intervals[0];//instead of storing two variable 
+        for (int i = 1; i < intervals.length; i++) {
+            if (current[1] >= intervals[i][0]) {
+                current[1] = Math.max(current[1], intervals[i][1]);
+            } else {
+                merged.add(current);
+                current = intervals[i];
             }
-            else {
-                ans.add(new int[] {left, right});
-                left = l1;
-                right=r1;
-            }
+        }
+        // Add the last merged interval
+        merged.add(current);
 
-        }
-        ans.add(new int[] {left, right});
-        int ansF [][] = new int[ans.size()][2];
-        for (int i=0; i<ans.size(); i++){
-            ansF[i][0] = ans.get(i)[0];
-            ansF[i][1] = ans.get(i)[1];
-        }
-        return ansF;
-        // return new int[][] {{15,18},{8,10},{1,6}};
+        return merged.toArray(new int[merged.size()][]);
+        //Since ArrayList<int[]> already holds references, the final int[][] output does not create extra space, just moves data.
         
     }
 }
