@@ -58,17 +58,20 @@
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/prgup/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/prgup/LeetCode/tree/master/0100-same-tree) |
+| [0226-invert-binary-tree](https://github.com/prgup/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/prgup/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/prgup/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/prgup/LeetCode/tree/master/0100-same-tree) |
+| [0226-invert-binary-tree](https://github.com/prgup/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/prgup/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/prgup/LeetCode/tree/master/0100-same-tree) |
+| [0226-invert-binary-tree](https://github.com/prgup/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/prgup/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## String
@@ -111,4 +114,5 @@
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/prgup/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/prgup/LeetCode/tree/master/0100-same-tree) |
+| [0226-invert-binary-tree](https://github.com/prgup/LeetCode/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
