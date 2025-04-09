@@ -1,49 +1,26 @@
 class Solution {
     public int characterReplacement(String s, int k) {
-        int n = s.length();
-        if (k==n || k==(n-1))
-        return Math.max(1,k);
-        int max=k;
-        char [] li = s.toCharArray();
-        for (int left=0; left<n; left++){
-            int right=left+1, temp=k, current=1;
-            while (right <n ){
-                if (li[left]==li[right] || temp>0){
-                    if (li[left]!=li[right])
-                    temp--;
-                right++;
-                current++;
-                }
-                else
-                break;
+        int[] cnt = new int[26];
+        int left = -1, right = -1, n = s.length(), ans = 0;
+        while (right < n - 1) {
+            System.out.println(right + " 1`" + left);
+            right++;
+            cnt[s.charAt(right) - 'A']++;
+            while (right - left - k > maxC(cnt)) {
+                left++;
+                cnt[s.charAt(left) - 'A']--;
             }
-            if (temp>0){
-                current = Math.min(n, current+temp);
-            }
-            max = Math.max(max, current);
-            if (max>n*0.8)
-            break;
-
+            ans = Math.max(ans, right - left);
         }
-        //  for (int right=n-1; right>0; right--){
-        //     int left=right-1, temp=k, current=1;
-        //     while (left >-1 ){
-        //         if (li[left]==li[right] || temp>0){
-        //             if (li[left]!=li[right])
-        //             temp--;
-        //         left--;
-        //         current++;
-        //         }
-        //         else
-        //         break;
-        //     }
-        //      if (temp>0){
-        //         current = Math.min(n, current+temp);
-        //     }
-        //     max = Math.max(max, current);
+        return ans;
+    }
 
-        // }
-        return max;
-        
+    int maxC(int[] nums) {
+        int val = 0;
+        for (int i : nums) {
+            if (i > val)
+                val = i;
+        }
+        return val;
     }
 }
