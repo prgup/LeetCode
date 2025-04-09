@@ -1,11 +1,11 @@
 class Solution {
     public int characterReplacement(String s, int k) {
         int[] cnt = new int[26];
-        int left = -1, right = -1, n = s.length(), ans = 0;
+        int left = -1, right = -1, n = s.length(), ans = 0, maxA = 0;
         while (right < n - 1) {
             right++;
             cnt[s.charAt(right) - 'A']++;
-            int maxA=maxC(cnt);
+            maxA = Math.max(maxA, cnt[s.charAt(right) - 'A']);
             while (right - left - k > maxA) {
                 left++;
                 cnt[s.charAt(left) - 'A']--;
@@ -13,14 +13,5 @@ class Solution {
             ans = Math.max(ans, right - left);
         }
         return ans;
-    }
-
-    int maxC(int[] nums) {
-        int val = 0;
-        for (int i : nums) {
-            if (i > val)
-                val = i;
-        }
-        return val;
     }
 }
