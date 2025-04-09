@@ -3,10 +3,10 @@ class Solution {
         int[] cnt = new int[26];
         int left = -1, right = -1, n = s.length(), ans = 0;
         while (right < n - 1) {
-            System.out.println(right + " 1`" + left);
             right++;
             cnt[s.charAt(right) - 'A']++;
-            while (right - left - k > maxC(cnt)) {
+            int maxA=maxC(cnt);
+            while (right - left - k > maxA) {
                 left++;
                 cnt[s.charAt(left) - 'A']--;
             }
