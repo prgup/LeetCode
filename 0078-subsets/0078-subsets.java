@@ -1,21 +1,21 @@
 class Solution {
-    public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        ans.add(new ArrayList<>()); // start with empty subset
-        generate(nums, 0, ans);
-        return ans;
-    }
+    private int n;
+    List<List<Integer>> ans = new ArrayList<>();
 
-    void generate(int[] nums, int idx, List<List<Integer>> ans) {
-        if (idx == nums.length) return;
-
-        int size = ans.size();
-        for (int i = 0; i < size; i++) {
-            List<Integer> newSubset = new ArrayList<>(ans.get(i));
-            newSubset.add(nums[idx]);
-            ans.add(newSubset);
+    public void backtrack (int [] nums, List<Integer> curr, int idx){
+        ans.add(new ArrayList<>(curr));
+        // ans.add(curr); // good error
+        for (int i=idx; i<n; i++){
+            curr.add(nums[i]);
+            backtrack(nums, curr, i+1);
+            curr.remove(curr.size()-1);
         }
+    }
+    public List<List<Integer>> subsets(int[] nums) {
+        n = nums.length;
+        List<Integer> curr = new ArrayList<>();
+        backtrack(nums, curr, 0);
+        return ans;
 
-        generate(nums, idx + 1, ans);
     }
 }
