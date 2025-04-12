@@ -9,6 +9,7 @@
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/prgup/LeetCode/tree/master/0048-rotate-image) |
 | [0056-merge-intervals](https://github.com/prgup/LeetCode/tree/master/0056-merge-intervals) |
+| [0078-subsets](https://github.com/prgup/LeetCode/tree/master/0078-subsets) |
 | [0198-house-robber](https://github.com/prgup/LeetCode/tree/master/0198-house-robber) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -136,4 +137,12 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/prgup/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/prgup/LeetCode/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/prgup/LeetCode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
