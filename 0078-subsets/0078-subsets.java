@@ -1,20 +1,21 @@
 class Solution {
-    private int n;
-    List<List<Integer>> ans = new ArrayList<>();
-
-    public void backtrack (int [] nums, List<Integer> curr, int idx){
-        ans.add(new ArrayList<>(curr));
-        // ans.add(curr); // good error
-        for (int i=idx; i<n; i++){
-            curr.add(nums[i]);
-            backtrack(nums, curr, i+1);
-            curr.remove(curr.size()-1);
-        }
-    }
     public List<List<Integer>> subsets(int[] nums) {
-        n = nums.length;
-        List<Integer> curr = new ArrayList<>();
-        backtrack(nums, curr, 0);
+        //Lexographic // editorial3 //always sorted
+        int n = nums.length;
+        int pow = 1 << n;
+        List<List<Integer>> ans = new ArrayList<>();
+        for (int i = 0; i < pow; i++) {
+            // String s = Integer.toBinaryString(i|pow).substring(1);
+            List<Integer> subset = new ArrayList<>();
+            int j = 0;
+            while (j < n) {
+                // if (s.charAt(j)=='1')
+                if ((i & (1 << j)) != 0)
+                    subset.add(nums[j]);
+                j++;
+            }
+            ans.add(subset);
+        }
         return ans;
 
     }
