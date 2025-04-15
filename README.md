@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/prgup/LeetCode/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/prgup/LeetCode/tree/master/0015-3sum) |
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/prgup/LeetCode/tree/master/0048-rotate-image) |
 | [0056-merge-intervals](https://github.com/prgup/LeetCode/tree/master/0056-merge-intervals) |
@@ -22,6 +23,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/prgup/LeetCode/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/prgup/LeetCode/tree/master/0056-merge-intervals) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -112,6 +114,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/prgup/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0015-3sum](https://github.com/prgup/LeetCode/tree/master/0015-3sum) |
 | [0141-linked-list-cycle](https://github.com/prgup/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
