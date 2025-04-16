@@ -49,6 +49,7 @@
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
 | [0198-house-robber](https://github.com/prgup/LeetCode/tree/master/0198-house-robber) |
 | [0516-longest-palindromic-subsequence](https://github.com/prgup/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
+| [0647-palindromic-substrings](https://github.com/prgup/LeetCode/tree/master/0647-palindromic-substrings) |
 | [2001-jump-game-vii](https://github.com/prgup/LeetCode/tree/master/2001-jump-game-vii) |
 ## Greedy
 |  |
@@ -91,6 +92,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/prgup/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/prgup/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/prgup/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
+| [0647-palindromic-substrings](https://github.com/prgup/LeetCode/tree/master/0647-palindromic-substrings) |
 | [2001-jump-game-vii](https://github.com/prgup/LeetCode/tree/master/2001-jump-game-vii) |
 ## Sliding Window
 |  |
@@ -118,6 +120,7 @@
 | [0005-longest-palindromic-substring](https://github.com/prgup/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/prgup/LeetCode/tree/master/0015-3sum) |
 | [0141-linked-list-cycle](https://github.com/prgup/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0647-palindromic-substrings](https://github.com/prgup/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Union Find
