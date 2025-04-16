@@ -1,32 +1,23 @@
 class Trie {
 
     class Node {
-        Map <Character, Node> set = new HashMap<>();
+        Node [] children = new Node[26];
         boolean isEnd=false;
-        // public Node (char c){
-        //     this.set.put(c, null);
-        // }
     }
 
     Node head;
 
     public Trie() {
         this.head = new Node();
-        // head.put(0, new Node());
     }
     
     public void insert(String word) {
         Node temp = this.head;//Set <Character, Node>
         for (char c : word.toCharArray()){
-            // if (temp == null ){
-            //     temp.next= Node(c);
-            // }
-            // else 
-            // if (!temp.contains(c)){
-            //     temp.add(c);
-            // }
-            temp.set.putIfAbsent(c, new Node ());
-            temp = temp.set.get(c);
+            int i = c-'a';
+            if (temp.children[i]==null)
+            temp.children[i]=new Node();
+            temp = temp.children[i];
         }
         temp.isEnd = true;
 
@@ -36,9 +27,10 @@ class Trie {
     public boolean search(String word) {
         Node temp= this.head;
         for (char c : word.toCharArray()){
-            if (!temp.set.containsKey(c))
+            int i = c-'a';
+            if (temp.children[i]==null)
             return false;
-            temp=temp.set.get(c);
+            temp=temp.children[i];
         }
         return temp.isEnd;
         
@@ -47,9 +39,10 @@ class Trie {
     public boolean startsWith(String prefix) {
         Node temp= this.head;
         for (char c : prefix.toCharArray()){
-            if (!temp.set.containsKey(c))
+             int i = c-'a';
+            if (temp.children[i]==null)
             return false;
-            temp=temp.set.get(c);
+            temp=temp.children[i];
         }
         return true;
         
