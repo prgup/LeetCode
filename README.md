@@ -10,6 +10,7 @@
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/prgup/LeetCode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/prgup/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/prgup/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/prgup/LeetCode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/prgup/LeetCode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/prgup/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -55,6 +56,7 @@
 | [0005-longest-palindromic-substring](https://github.com/prgup/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/prgup/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/prgup/LeetCode/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/prgup/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/prgup/LeetCode/tree/master/0198-house-robber) |
 | [0516-longest-palindromic-subsequence](https://github.com/prgup/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
@@ -64,6 +66,7 @@
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/prgup/LeetCode/tree/master/0055-jump-game) |
 ## Math
 |  |
 | ------- |
