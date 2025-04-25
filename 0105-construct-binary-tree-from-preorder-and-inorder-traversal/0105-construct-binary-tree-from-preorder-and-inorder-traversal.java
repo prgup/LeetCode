@@ -15,31 +15,22 @@
  */
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        int n= preorder.length;
-        TreeNode root = new TreeNode(preorder[0]);
-        building (root, preorder, inorder,0, n-1, 0);
-        return root;
-    }
-    void building (TreeNode root, int[] preorder, int[] inorder, int il, int ir, int pl){
-        if (ir <il || pl >= preorder.length)
-        return;
-
-        int head = preorder[pl];
-        int mid=il;
-        for (int i= il; i<=ir; i++){
-            if (head==inorder[i]){
+        int n = preorder.length;
+        if (n<=0)
+        return null;
+        TreeNode ans = new TreeNode (preorder[0]);
+        int mid=0;
+        for (int i=0; i<n; i++){
+            if (preorder[0]==inorder[i]){
                 mid =i;
                 break;
             }
         }
-        if (mid-il>0){
-            root.left = new TreeNode (preorder[pl+1]);
-            building (root.left, preorder, inorder, il , mid -1, pl+1) ;
-        }
-        if (ir-mid>0){
-            root.right = new TreeNode (preorder[pl + mid-il + 1]);
-            building (root.right, preorder, inorder, mid+1 ,ir, pl + mid-il + 1);
-        }
+        ans.left = buildTree (Arrays.copyOfRange(preorder, 1, mid+1), Arrays.copyOfRange(inorder, 0, mid));
+        ans.right = buildTree (Arrays.copyOfRange(preorder, mid+1, n), Arrays.copyOfRange(inorder, mid+1 , n));
+        return ans;
+
         
     }
+    
 }
