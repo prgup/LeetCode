@@ -20,6 +20,7 @@
 | [0200-number-of-islands](https://github.com/prgup/LeetCode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/prgup/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/prgup/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0268-missing-number](https://github.com/prgup/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/prgup/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -28,6 +29,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/prgup/LeetCode/tree/master/0268-missing-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 ## Sorting
 |  |
@@ -36,6 +38,7 @@
 | [0056-merge-intervals](https://github.com/prgup/LeetCode/tree/master/0056-merge-intervals) |
 | [0217-contains-duplicate](https://github.com/prgup/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/prgup/LeetCode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/prgup/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/prgup/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -77,6 +80,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/prgup/LeetCode/tree/master/0048-rotate-image) |
+| [0268-missing-number](https://github.com/prgup/LeetCode/tree/master/0268-missing-number) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Tree
 |  |
@@ -142,6 +146,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/prgup/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/prgup/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/prgup/LeetCode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/prgup/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/prgup/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/prgup/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -200,6 +205,7 @@
 |  |
 | ------- |
 | [0078-subsets](https://github.com/prgup/LeetCode/tree/master/0078-subsets) |
+| [0268-missing-number](https://github.com/prgup/LeetCode/tree/master/0268-missing-number) |
 ## Design
 |  |
 | ------- |
