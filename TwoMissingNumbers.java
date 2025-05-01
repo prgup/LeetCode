@@ -34,8 +34,6 @@ public class TwoMissingNumbers {
 
         }
         int pivot = (int) Math.pow(2, str1.length()-i-1);
-        System.out.println(pivot);
-
 
         //finding missing elements
         List<Integer> li1 = new ArrayList<>();//till n
@@ -55,23 +53,15 @@ public class TwoMissingNumbers {
         for (int j: mi1){
             ans1^=j;
         }
-
-        List<Integer> li2 = new ArrayList<>();//till n
-        List<Integer> mi2 = new ArrayList<>(); // til all  the elements
+        
+        int ans2=0;
         for ( i=1; i<=n; i++){
             if ((i&pivot) ==0 )
-                li2.add(i);
+                ans2^=i;
         }
         for ( int j: input){
              if ((j&pivot) ==0 )
-                mi2.add(j);
-        }
-        int ans2=0;
-        for (int j: li2){
-            ans2^=j;
-        }
-        for (int j: mi2){
-            ans2^=j;
+                ans2^=j;
         }
 
         System.out.println("Missing numbers     \n" + ans1 + "     "+ ans2) ;
