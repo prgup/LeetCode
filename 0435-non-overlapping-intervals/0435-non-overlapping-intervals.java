@@ -3,24 +3,14 @@ class Solution {
         Arrays.sort(intervals, (a,b) -> a[1]-b[1]);
         int n = intervals.length;
         int [] overlap = new int[n];
-        int max=0;
-        for (int i =0; i<n; i++){
-            if (overlap[i]==0){
-            for (int j=i+1; j<n; j++){
-                if ( intervals[j][0] < intervals[i][1]){
-                    overlap[j]++;
-                }
+        int ans=0, left=intervals[0][1];
+        for (int i =1; i<n; i++){
+            if (intervals[i][0] < left){
+                ans++;
             }
-        }
-        }
-        int ans=0;
-        for (int i: overlap){
-            if (i!=0)
-            ans++;
-            
+            else 
+            left=intervals[i][1];
         }
         return ans;
-
-        
     }
 }
