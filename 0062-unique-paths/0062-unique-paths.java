@@ -1,19 +1,18 @@
 class Solution {
-    
     public int uniquePaths(int m, int n) {
-        int [][] memoization = new int[m+1][n+1];
-        memoization[1][1]=1;
-        return paths(m,n, memoization);
-    }
-    int paths (int m, int n, int [][] memoization){
-        if (memoization[m][n] !=0)
-        return memoization[m][n];
-        if (m>1){
-                paths(m-1,n, memoization);
-            }
-        if (n>1)
-                paths(m,n-1, memoization);
-        return memoization[m][n]=memoization[m-1][n]+memoization[m][n-1];
+        //At any cell (i, j), you only need:
+        //dp[j] â number of paths from the cell below (i+1, j)
+        //dp[j + 1] â number of paths from the cell to the right (i, j+1)
 
+
+        int [] dp = new int[n];
+        dp[n-1]=1;
+
+        for (int i=m-1; i>=0; i--){
+            for (int j=n-2; j>=0; j--){
+                dp[j] =dp[j]+dp[j+1];
+            }
+        }
+        return  dp[0];
     }
 }
