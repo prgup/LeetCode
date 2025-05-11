@@ -77,6 +77,7 @@
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/prgup/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/prgup/LeetCode/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/prgup/LeetCode/tree/master/0062-unique-paths) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/prgup/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/prgup/LeetCode/tree/master/0198-house-robber) |
 | [0435-non-overlapping-intervals](https://github.com/prgup/LeetCode/tree/master/0435-non-overlapping-intervals) |
@@ -93,6 +94,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/prgup/LeetCode/tree/master/0048-rotate-image) |
+| [0062-unique-paths](https://github.com/prgup/LeetCode/tree/master/0062-unique-paths) |
 | [0268-missing-number](https://github.com/prgup/LeetCode/tree/master/0268-missing-number) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Tree
@@ -253,4 +255,8 @@
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/prgup/LeetCode/tree/master/0164-maximum-gap) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/prgup/LeetCode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
