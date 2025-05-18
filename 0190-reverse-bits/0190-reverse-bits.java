@@ -1,10 +1,17 @@
 public class Solution {
     public int reverseBits(int n) {
-        String input = Integer.toBinaryString(n);
-       
-        String ans = String.format("%32s" , input).replace(' ', '0');
-        StringBuilder ans1 = (new StringBuilder(ans)).reverse();
-        return (int) Long.parseLong(ans1+"",2);
+        int count =0;
+        int ans=0;
+        while ( count <32){
+            ans<<=1;
+            // if ((n&1)==1){
+            //     ans+=1;
+            // }
+            ans|=(n&1);
+            n>>>=1;
+            count++;
+        }
+        return ans;
     }
 
 }
