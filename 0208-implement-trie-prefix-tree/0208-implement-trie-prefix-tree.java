@@ -1,48 +1,53 @@
 class Trie {
+    class TrieNode {
+    HashMap<Character, TrieNode> children;
+    boolean wordEnd;
+    public TrieNode () {
+        this.children = new HashMap<>();
+        this.wordEnd=false;
+    }}
 
-    class Node {
-        Node [] children = new Node[26];
-        boolean isEnd=false;
-    }
-
-    Node head;
+    TrieNode root;
 
     public Trie() {
-        this.head = new Node();
+        root = new TrieNode();
     }
     
     public void insert(String word) {
-        Node temp = this.head;//Set <Character, Node>
+        TrieNode temp =root;
+        
         for (char c : word.toCharArray()){
-            int i = c-'a';
-            if (temp.children[i]==null)
-            temp.children[i]=new Node();
-            temp = temp.children[i];
-        }
-        temp.isEnd = true;
+            temp.children.putIfAbsent(c, new TrieNode());
+            temp = temp.children.get(c);
 
+        }
+        temp.wordEnd=true;
         
     }
     
     public boolean search(String word) {
-        Node temp= this.head;
+        TrieNode temp =root;
+        
         for (char c : word.toCharArray()){
-            int i = c-'a';
-            if (temp.children[i]==null)
+
+            if (!temp.children.containsKey(c))
             return false;
-            temp=temp.children[i];
+            temp = temp.children.get(c);
+
         }
-        return temp.isEnd;
+        return temp.wordEnd;
         
     }
     
     public boolean startsWith(String prefix) {
-        Node temp= this.head;
+         TrieNode temp =root;
+        
         for (char c : prefix.toCharArray()){
-             int i = c-'a';
-            if (temp.children[i]==null)
+
+            if (!temp.children.containsKey(c))
             return false;
-            temp=temp.children[i];
+            temp = temp.children.get(c);
+
         }
         return true;
         
