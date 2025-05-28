@@ -22,28 +22,19 @@ class Solution {
     public Node cloneGraph(Node node) {
         if (node==null)
         return null;
-
-        HashMap<Node, Node> map = new HashMap<>();
-        Queue <Node> queue = new ArrayDeque<>();
-
-        queue.add(node);
-        map.put(node,new Node(node.val) );
-
-        while (queue.size()> 0){
-            Node temp = queue.poll();
-            for (Node i: temp.neighbors){
-                 if (!map.containsKey(i)){
-                    map.put(i,new Node(i.val));
-                    queue.add(i);
-                 }
-                map.get(temp).neighbors.add(map.get(i));
-
+        Map<Node, Node> map = new HashMap<>();
+        map.put(node, new Node(node.val));
+        dfs(map, node);
+        return map.get(node);
+    }
+    public void dfs(Map<Node, Node> map, Node node){
+        for (Node i : node.neighbors){
+            if (!map.containsKey(i)){
+                map.put(i, new Node(i.val));
+                dfs(map, i);
             }
+            map.get(node).neighbors.add(map.get(i));
         }
 
-        return map.get(node);
-
-
-        
     }
 }
