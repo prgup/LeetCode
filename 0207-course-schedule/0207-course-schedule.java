@@ -1,37 +1,34 @@
 class Solution {
+    // A topological sort is a linear ordering of vertices in a directed acyclic graph (DAG).  
+    // a topological sort algorithm returns a sequence of vertices in which the vertices never come before their predecessors on any paths
     public boolean canFinish(int numC, int[][] pre) {
+        int [] inDegree = new int[numC];
         Map<Integer, List<Integer>> graph = new HashMap<>();
-        for (int i=0; i<pre.length; i++){
-            int x = pre[i][0], y = pre[i][1];
-            // List<Integer> li = graph.getOrDefault(y, new ArrayList<>());
-            // li.add(x);
-            // graph.put(y, li);
-            graph.computeIfAbsent(y, k -> new ArrayList<>()).add(x);
+        for ( int [] edge : pre){ //O(V+E)
+            int in = edge[1]; 
+            int out = edge[0];
+            graph.computeIfAbsent(out, k->new ArrayList<>()).add(in);
+            inDegree[in]++;
         }
-        int [] visited = new int[numC];
-        for (int i=0; i<numC; i++){
-            if (visited[i]==1)
-            continue;
-            boolean status = dfs(graph, visited, i);
-            if (!status)
-            return false;
-        }
-        return true;
-    }
+        Queue <Integer> queue = new ArrayDeque<>();
 
-    private boolean dfs(Map<Integer, List<Integer>> graph, int [] visited, int idx){
-        System.out.println(idx);
-        visited[idx]=2;
-        for (int i : graph.getOrDefault(idx, new ArrayList<>())){
-            if (visited[i]==2)
-            return false;
-            if (visited[i]!=1){
-                boolean status = dfs(graph, visited, i);
-                if (!status)
-                return false;
-            }
+        for (int i=0; i<numC; i++){ //O(V)
+            if (inDegree[i]==0) queue.offer(i);
         }
-        visited[idx]=1;
-        return true;
+        int idx=0;
+        while (!queue.isEmpty()){ //O(V+E)
+            int current = queue.poll();
+            for (int i : graph.getOrDefault(current, new ArrayList<>())){
+                inDegree[i]--;
+                if (inDegree[i]==0)
+                queue.offer(i);
+            }
+            idx++;
+        }
+
+        return idx==numC;
+
+
+        
     }
 }
