@@ -37,6 +37,7 @@
 | [0435-non-overlapping-intervals](https://github.com/prgup/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/prgup/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -70,6 +71,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/prgup/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/prgup/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Matrix
 |  |
@@ -79,6 +81,7 @@
 | [0200-number-of-islands](https://github.com/prgup/LeetCode/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/prgup/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Dynamic Programming
@@ -151,6 +154,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/prgup/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/prgup/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## String
 |  |
@@ -316,9 +320,14 @@
 | [0133-clone-graph](https://github.com/prgup/LeetCode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/prgup/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/prgup/LeetCode/tree/master/0210-course-schedule-ii) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/prgup/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/prgup/LeetCode/tree/master/0210-course-schedule-ii) |
+## Shortest Path
+|  |
+| ------- |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 <!---LeetCode Topics End-->
