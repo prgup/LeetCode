@@ -17,6 +17,7 @@
 | [0056-merge-intervals](https://github.com/prgup/LeetCode/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/prgup/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0078-subsets](https://github.com/prgup/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/prgup/LeetCode/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/prgup/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/prgup/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/prgup/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -78,6 +79,7 @@
 | ------- |
 | [0048-rotate-image](https://github.com/prgup/LeetCode/tree/master/0048-rotate-image) |
 | [0063-unique-paths-ii](https://github.com/prgup/LeetCode/tree/master/0063-unique-paths-ii) |
+| [0079-word-search](https://github.com/prgup/LeetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/prgup/LeetCode/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/prgup/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -129,6 +131,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/prgup/LeetCode/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/prgup/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/prgup/LeetCode/tree/master/0100-same-tree) |
 | [0133-clone-graph](https://github.com/prgup/LeetCode/tree/master/0133-clone-graph) |
@@ -161,6 +164,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/prgup/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/prgup/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0079-word-search](https://github.com/prgup/LeetCode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/prgup/LeetCode/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/prgup/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/prgup/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -260,6 +264,7 @@
 | ------- |
 | [0039-combination-sum](https://github.com/prgup/LeetCode/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/prgup/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/prgup/LeetCode/tree/master/0079-word-search) |
 ## Bit Manipulation
 |  |
 | ------- |
