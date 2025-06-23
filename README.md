@@ -10,6 +10,7 @@
 | [0015-3sum](https://github.com/prgup/LeetCode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/prgup/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/prgup/LeetCode/tree/master/0039-combination-sum) |
+| [0042-trapping-rain-water](https://github.com/prgup/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/prgup/LeetCode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/prgup/LeetCode/tree/master/0053-maximum-subarray) |
@@ -90,6 +91,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/prgup/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/prgup/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/prgup/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/prgup/LeetCode/tree/master/0055-jump-game) |
@@ -214,6 +216,7 @@
 | [0011-container-with-most-water](https://github.com/prgup/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/prgup/LeetCode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/prgup/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/prgup/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/prgup/LeetCode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/prgup/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/prgup/LeetCode/tree/master/0143-reorder-list) |
@@ -317,6 +320,7 @@
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/prgup/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/prgup/LeetCode/tree/master/0143-reorder-list) |
 ## Recursion
 |  |
@@ -339,4 +343,8 @@
 |  |
 | ------- |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/prgup/LeetCode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
