@@ -1,24 +1,37 @@
 class Solution {
+    
     public boolean exist(char[][] board, String word) {
-    char[] w = word.toCharArray();
-    for (int y=0; y<board.length; y++) {
-    	for (int x=0; x<board[y].length; x++) {
-    		if (exist(board, y, x, w, 0)) return true;
-    	}
+        int m = board.length, n= board[0].length;
+        boolean [][] visited = new boolean[m][n];
+        for (int i=0; i< m; i++){
+            for (int j=0; j<n; j++){
+                if (board[i][j]==word.charAt(0)){
+                    
+                    visited[i][j]=true;
+                    if (wordSearch(board,m,n, i, j, word, 1, visited))
+                    return true;
+                    visited[i][j]=false;
+                }
+            }
+        }
+        return false;  
     }
-    return false;
-}
 
-private boolean exist(char[][] board, int y, int x, char[] word, int i) {
-	if (i == word.length) return true;
-	if (y<0 || x<0 || y == board.length || x == board[y].length) return false;
-	if (board[y][x] != word[i]) return false;
-	board[y][x] ^= 256;
-	boolean exist = exist(board, y, x+1, word, i+1)
-		|| exist(board, y, x-1, word, i+1)
-		|| exist(board, y+1, x, word, i+1)
-		|| exist(board, y-1, x, word, i+1);
-	board[y][x] ^= 256;
-	return exist;
-}
+    boolean wordSearch(char [][] board, int m, int n, int i, int j, String word, int idx, boolean[][] visited){
+        if (idx >= word.length())
+        return true;
+        
+        for ( int [] dir : new int [][] {{-1,0}, {1,0}, {0,-1}, {0,1}}){
+            int i1 = dir[0]+i, j1 = dir[1]+j;
+            if (i1<0 || i1>=m || j1<0 || j1>=n)
+            continue;
+            if (!visited[i1][j1] && board[i1][j1]==word.charAt(idx)){ 
+                visited[i1][j1]=true;
+                if (wordSearch(board,m,n, i1, j1, word, idx +1, visited))
+                return true;
+                visited[i1][j1]=false;
+            }
+        }
+        return false;
+    }
 }
