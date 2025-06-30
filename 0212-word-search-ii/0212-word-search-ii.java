@@ -7,21 +7,21 @@ class Solution {
     class Trie {
         TrieNode root = new TrieNode();
 
-        private void addWord(String word) {
-            TrieNode temp = root;
-            for (char c : word.toCharArray()) {
-                if (temp.children[c - 'a'] == null)
-                    temp.children[c - 'a'] = new TrieNode();
-                temp = temp.children[c - 'a'];
+        private void addWord(String[] words) {
+            for (String word : words) {
+                TrieNode temp = root;
+                for (char c : word.toCharArray()) {
+                    if (temp.children[c - 'a'] == null)
+                        temp.children[c - 'a'] = new TrieNode();
+                    temp = temp.children[c - 'a'];
+                }
+                temp.word = word;
             }
-            temp.word = word;
         }
     }
 
     private void dfs(char[][] board, int i, int j, int m, int n, List<String> ans, TrieNode trie) {
         char c = board[i][j];
-        if (c == '#' || trie.children[c - 'a'] == null)
-            return;
         trie = trie.children[c - 'a'];
         if (trie.word != null) {
             ans.add(trie.word);
@@ -33,7 +33,10 @@ class Solution {
             int i1 = i + dir[0], j1 = j + dir[1];
 
             if (0 <= i1 && m > i1 && 0 <= j1 && n > j1) {
-                dfs(board, i1, j1, m, n, ans, trie);
+                char c1 = board[i1][j1];
+                if (c1 != '#' && trie.children[c1 - 'a'] != null) {
+                    dfs(board, i1, j1, m, n, ans, trie);
+                }
 
             }
 
@@ -46,13 +49,14 @@ class Solution {
         int m = board.length, n = board[0].length;
         List<String> ans = new ArrayList<>();
         Trie trie = new Trie();
-        for (String str : words) {
-            trie.addWord(str);
-        }
+
+        trie.addWord(words);
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                dfs(board, i, j, m, n, ans, trie.root);
+                char c = board[i][j];
+                if (trie.root.children[c - 'a'] != null)
+                    dfs(board, i, j, m, n, ans, trie.root);
             }
         }
         return ans;
