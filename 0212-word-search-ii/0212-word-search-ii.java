@@ -5,7 +5,7 @@ class Solution {
     }
 
     class Trie {
-        TrieNode root= new TrieNode();
+        TrieNode root = new TrieNode();
 
         private void addWord(String word) {
             TrieNode temp = root;
@@ -20,21 +20,20 @@ class Solution {
 
     private void dfs(char[][] board, int i, int j, int m, int n, List<String> ans, TrieNode trie) {
         char c = board[i][j];
-        trie = trie.children[c-'a'];
+        if (c == '#' || trie.children[c - 'a'] == null)
+            return;
+        trie = trie.children[c - 'a'];
         if (trie.word != null) {
             ans.add(trie.word);
             trie.word = null;
         }
         board[i][j] = '#';
-        
+
         for (int[] dir : new int[][] { { -1, 0 }, { 1, 0 }, { 0, 1 }, { 0, -1 } }) {
             int i1 = i + dir[0], j1 = j + dir[1];
 
             if (0 <= i1 && m > i1 && 0 <= j1 && n > j1) {
-                char c1 = board[i1][j1];
-                if (c1!='#' && trie.children[c1 - 'a'] != null) {
-                    dfs(board, i1, j1, m, n, ans, trie);
-                }
+                dfs(board, i1, j1, m, n, ans, trie);
 
             }
 
@@ -53,9 +52,7 @@ class Solution {
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                char c = board[i][j];
-                if (trie.root.children[c - 'a'] != null)
-                    dfs(board, i, j, m, n, ans, trie.root);
+                dfs(board, i, j, m, n, ans, trie.root);
             }
         }
         return ans;
