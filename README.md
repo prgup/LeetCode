@@ -193,6 +193,7 @@
 | [0242-valid-anagram](https://github.com/prgup/LeetCode/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/prgup/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/prgup/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0481-magical-string](https://github.com/prgup/LeetCode/tree/master/0481-magical-string) |
 | [0516-longest-palindromic-subsequence](https://github.com/prgup/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/prgup/LeetCode/tree/master/0647-palindromic-substrings) |
 | [2001-jump-game-vii](https://github.com/prgup/LeetCode/tree/master/2001-jump-game-vii) |
@@ -242,6 +243,7 @@
 | [0141-linked-list-cycle](https://github.com/prgup/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/prgup/LeetCode/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/prgup/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0481-magical-string](https://github.com/prgup/LeetCode/tree/master/0481-magical-string) |
 | [0647-palindromic-substrings](https://github.com/prgup/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
