@@ -1,22 +1,18 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
-        if (amount == 0)
-            return 0;
-        int[] ans = new int[amount + 1];
-        ans[0] = 1;
-        for (int i = 0; i < amount; i++) {
-            if (ans[i] == 0)
-                continue;
-            for (int j : coins) {
-                if (j> amount || (i + j) > amount)
-                    continue;
-                if (ans[i + j] != 0)
-                    ans[i + j] = Math.min(ans[i] + 1, ans[i + j]);
-                else
-                    ans[i + j] = ans[i] + 1;
+        int max = amount + 1; // acts like infinity
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, max);
+        dp[0] = 0; // base case
+
+        for (int i = 1; i <= amount; i++) {
+            for (int coin : coins) {
+                if (i - coin >= 0) {
+                    dp[i] = Math.min(dp[i], dp[i - coin] + 1);
+                }
             }
         }
-        return ans[amount] - 1;
 
+        return dp[amount] == max ? -1 : dp[amount];
     }
 }
