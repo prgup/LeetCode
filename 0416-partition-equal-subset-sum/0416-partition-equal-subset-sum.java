@@ -4,23 +4,27 @@ class Solution {
         if (total % 2 != 0) return false;
 
         int target = total / 2;
-        Boolean[][] memo = new Boolean[nums.length][target + 1];
-        
-        boolean ans =canPartitionHelper(nums, 0, target, memo);
-        return ans;
-    }
+        int n = nums.length;
 
-    private boolean canPartitionHelper(int[] nums, int index, int target, Boolean[][] memo) {
-        if (target == 0) return true;
-        if (index >= nums.length || target < 0) return false;
+        // dp[i][j] = true if a sum j is possible using the first i numbers
+        boolean[][] dp = new boolean[n+1][target + 1];
 
-        if (memo[index][target] != null) return memo[index][target];
+        // Base case: sum 0 is possible with any number of elements including zero
+        for (int i = 0; i <= n; i++) {
+            dp[i][0] = true;
+        }
 
-        // Include or exclude the current number
-        boolean result = canPartitionHelper(nums, index + 1, target - nums[index], memo) ||
-                         canPartitionHelper(nums, index + 1, target, memo);
+        for (int i = 1; i <= n; i++) {
+            int curr = nums[i - 1];
+            for (int j = 1; j <= target; j++) {
+                if (j >= curr) {
+                    dp[i][j] = dp[i-1][j] || dp[i-1][j - curr];
+                } else {
+                    dp[i][j] = dp[i-1][j];
+                }
+            }
+        }
 
-        memo[index][target] = result;
-        return result;
+        return dp[n][target];
     }
 }
