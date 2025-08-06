@@ -1,29 +1,19 @@
 class Solution {
-    int[][] memoization;
-
     public int longestCommonSubsequence(String text1, String text2) {
-        memoization = new int[text1.length() ][text2.length()];
-        Arrays.stream(memoization).forEach(a -> Arrays.fill(a, -1));
-        helper(text1, text2, 0, 0);
-        System.out.println(Arrays.deepToString(memoization));
-        return memoization[0][0];
-    }
-
-    int helper(String text1, String text2, int len1, int len2) {
-        if (text1.length() <= len1 || text2.length() <= len2)
-            return 0;
-        if (memoization[len1][len2]!=-1){
-            return memoization[len1][len2];
+        String input1="0"+text1;
+        String input2= "0"+text2;
+        int len1 = input1.length(), len2 = input2.length();
+        int [][] dp = new int [len1][len2];
+        for (int i=1; i<len1; i++){ //i=0 represet empty text1;
+            for (int j=1; j<len2; j++){ //j=0 represent empty text2;
+                if (input1.charAt(i)==input2.charAt(j)){
+                    dp[i][j]=1+dp[i-1][j-1];
+                }
+                else 
+                    dp[i][j]= Math.max(dp[i-1][j], dp[i][j-1]);
+            }
         }
-        if (text1.charAt(len1) == text2.charAt(len2)) {
-            memoization[len1][len2] = 1+ helper(text1, text2, len1+1, len2+1);
-            
-        }
-        else {
-        memoization[len1][len2] =  Math.max(helper(text1, text2, len1+1, len2),
-                helper(text1, text2, len1, len2+1));
-        }
-        return memoization[len1][len2];
+        return dp[len1-1][len2-1];
         
     }
 }
