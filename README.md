@@ -53,6 +53,7 @@
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [2139-detect-squares](https://github.com/prgup/LeetCode/tree/master/2139-detect-squares) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/prgup/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -252,6 +253,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/prgup/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/prgup/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [2139-detect-squares](https://github.com/prgup/LeetCode/tree/master/2139-detect-squares) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 ## Two Pointers
 |  |
@@ -338,6 +340,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/prgup/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/prgup/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/prgup/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [2139-detect-squares](https://github.com/prgup/LeetCode/tree/master/2139-detect-squares) |
 ## Trie
 |  |
 | ------- |
@@ -354,6 +357,7 @@
 | ------- |
 | [0169-majority-element](https://github.com/prgup/LeetCode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/prgup/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [2139-detect-squares](https://github.com/prgup/LeetCode/tree/master/2139-detect-squares) |
 ## Quickselect
 |  |
 | ------- |
