@@ -14,29 +14,20 @@
  * }
  */
 class Solution {
-    private List<Integer> ans;
+     int ans = 0;
+
     public int diameterOfBinaryTree(TreeNode root) {
-        ans = new ArrayList<>(Arrays.asList(0));
-        helperDFS(root );
-        return ans.get(0);    
-
+        dfs(root);
+        return ans;
     }
 
-    private int helperDFS(TreeNode root){
-        if (root.left==null && root.right==null)
-        return 1;
-        int templeft=0, tempright=0;
-        if (root.left!=null)
-        templeft = helperDFS(root.left);
-        if (root.right!=null)
-        tempright = helperDFS(root.right);
-        int ansT = Math.max(templeft+tempright, ans.get(0));
-        ans.set(0, ansT);
-        return Math.max(templeft, tempright)+1;
+    private int dfs(TreeNode root) {
+        if (root == null) return 0;
 
+        int left = dfs(root.left);
+        int right = dfs(root.right);
 
+        ans = Math.max(ans, left + right);  // update diameter
+        return 1 + Math.max(left, right);   // return height
     }
-    
-
-    
 }
