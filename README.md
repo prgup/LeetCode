@@ -148,6 +148,7 @@
 | [0048-rotate-image](https://github.com/prgup/LeetCode/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/prgup/LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/prgup/LeetCode/tree/master/0070-climbing-stairs) |
+| [0202-happy-number](https://github.com/prgup/LeetCode/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/prgup/LeetCode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/prgup/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
@@ -245,6 +246,7 @@
 | [0133-clone-graph](https://github.com/prgup/LeetCode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/prgup/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/prgup/LeetCode/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/prgup/LeetCode/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/prgup/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/prgup/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/prgup/LeetCode/tree/master/0242-valid-anagram) |
@@ -266,6 +268,7 @@
 | [0125-valid-palindrome](https://github.com/prgup/LeetCode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/prgup/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/prgup/LeetCode/tree/master/0143-reorder-list) |
+| [0202-happy-number](https://github.com/prgup/LeetCode/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/prgup/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0481-magical-string](https://github.com/prgup/LeetCode/tree/master/0481-magical-string) |
 | [0647-palindromic-substrings](https://github.com/prgup/LeetCode/tree/master/0647-palindromic-substrings) |
