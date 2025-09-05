@@ -1,29 +1,27 @@
 class Solution {
-    public boolean isNStraightHand(int[] hand, int group) {
+    public boolean isNStraightHand(int[] hand, int groupSize) {
         int n = hand.length;
-        if (n%group !=0)
-        return false;
+        if (n % groupSize != 0) return false;
 
-        Arrays.sort(hand);
-        boolean [] visited = new boolean [n];
-        for(int i=0; i<n; i++){
-            if (!visited[i]){
-                visited[i]=true;
-                int j=group-1, k=i+1, prev=i;
-                while (j>0 ){
-                    if (k>=n)
-                        return false;
+        TreeMap<Integer, Integer> count = new TreeMap<>();
+        for (int card : hand) {
+            count.put(card, count.getOrDefault(card, 0)+1);
+        }
 
-                    if (!visited[k] && prev!=k && hand[k]==(hand[prev]+1)){
-                        visited[k]=true;
-                        j--;
-                        prev=k;
-                    }
-                    k++;
+        while (!count.isEmpty()) {
+            int first = count.firstKey(); // smallest available card
+            for (int i = 0; i < groupSize; i++) {
+                int card = first + i;
+                if (!count.containsKey(card)) return false;
+
+                // Decrement count
+                count.put(card, count.get(card) - 1);
+                if (count.get(card) == 0) {
+                    count.remove(card);
                 }
             }
         }
+
         return true;
-        
     }
 }
