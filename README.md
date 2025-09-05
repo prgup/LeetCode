@@ -16,6 +16,7 @@
 | [0042-trapping-rain-water](https://github.com/prgup/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/prgup/LeetCode/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/prgup/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/prgup/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/prgup/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/prgup/LeetCode/tree/master/0056-merge-intervals) |
@@ -73,6 +74,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/prgup/LeetCode/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/prgup/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/prgup/LeetCode/tree/master/0056-merge-intervals) |
 | [0164-maximum-gap](https://github.com/prgup/LeetCode/tree/master/0164-maximum-gap) |
 | [0169-majority-element](https://github.com/prgup/LeetCode/tree/master/0169-majority-element) |
@@ -207,6 +209,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/prgup/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/prgup/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0049-group-anagrams](https://github.com/prgup/LeetCode/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/prgup/LeetCode/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/prgup/LeetCode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/prgup/LeetCode/tree/master/0125-valid-palindrome) |
@@ -244,6 +247,7 @@
 | [0001-two-sum](https://github.com/prgup/LeetCode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/prgup/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0041-first-missing-positive](https://github.com/prgup/LeetCode/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/prgup/LeetCode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/prgup/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/prgup/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/prgup/LeetCode/tree/master/0128-longest-consecutive-sequence) |
