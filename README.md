@@ -51,6 +51,7 @@
 | [0474-ones-and-zeroes](https://github.com/prgup/LeetCode/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/prgup/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/prgup/LeetCode/tree/master/0518-coin-change-ii) |
+| [0876-hand-of-straights](https://github.com/prgup/LeetCode/tree/master/0876-hand-of-straights) |
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -84,6 +85,7 @@
 | [0347-top-k-frequent-elements](https://github.com/prgup/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/prgup/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0876-hand-of-straights](https://github.com/prgup/LeetCode/tree/master/0876-hand-of-straights) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -144,6 +146,7 @@
 | [0045-jump-game-ii](https://github.com/prgup/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/prgup/LeetCode/tree/master/0055-jump-game) |
 | [0435-non-overlapping-intervals](https://github.com/prgup/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0876-hand-of-straights](https://github.com/prgup/LeetCode/tree/master/0876-hand-of-straights) |
 ## Math
 |  |
 | ------- |
@@ -264,6 +267,7 @@
 | [0442-find-all-duplicates-in-an-array](https://github.com/prgup/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0567-permutation-in-string](https://github.com/prgup/LeetCode/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0876-hand-of-straights](https://github.com/prgup/LeetCode/tree/master/0876-hand-of-straights) |
 | [2139-detect-squares](https://github.com/prgup/LeetCode/tree/master/2139-detect-squares) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 ## Two Pointers
