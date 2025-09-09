@@ -29,6 +29,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/prgup/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/prgup/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0137-single-number-ii](https://github.com/prgup/LeetCode/tree/master/0137-single-number-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/prgup/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/prgup/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0164-maximum-gap](https://github.com/prgup/LeetCode/tree/master/0164-maximum-gap) |
 | [0169-majority-element](https://github.com/prgup/LeetCode/tree/master/0169-majority-element) |
@@ -153,6 +154,7 @@
 | [0048-rotate-image](https://github.com/prgup/LeetCode/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/prgup/LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/prgup/LeetCode/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/prgup/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/prgup/LeetCode/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/prgup/LeetCode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/prgup/LeetCode/tree/master/0371-sum-of-two-integers) |
@@ -401,6 +403,7 @@
 | ------- |
 | [0042-trapping-rain-water](https://github.com/prgup/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/prgup/LeetCode/tree/master/0143-reorder-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/prgup/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Recursion
 |  |
 | ------- |
