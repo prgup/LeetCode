@@ -52,6 +52,7 @@
 | [0474-ones-and-zeroes](https://github.com/prgup/LeetCode/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/prgup/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/prgup/LeetCode/tree/master/0518-coin-change-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/prgup/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0876-hand-of-straights](https://github.com/prgup/LeetCode/tree/master/0876-hand-of-straights) |
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -246,6 +247,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/prgup/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0560-subarray-sum-equals-k](https://github.com/prgup/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2001-jump-game-vii](https://github.com/prgup/LeetCode/tree/master/2001-jump-game-vii) |
@@ -270,6 +272,7 @@
 | [0347-top-k-frequent-elements](https://github.com/prgup/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/prgup/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/prgup/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0560-subarray-sum-equals-k](https://github.com/prgup/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/prgup/LeetCode/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-hand-of-straights](https://github.com/prgup/LeetCode/tree/master/0876-hand-of-straights) |
