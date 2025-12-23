@@ -155,6 +155,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/prgup/LeetCode/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/prgup/LeetCode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/prgup/LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/prgup/LeetCode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/prgup/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -418,6 +419,7 @@
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/prgup/LeetCode/tree/master/0021-merge-two-sorted-lists) |
+| [0050-powx-n](https://github.com/prgup/LeetCode/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/prgup/LeetCode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/prgup/LeetCode/tree/master/0206-reverse-linked-list) |
 ## Graph
