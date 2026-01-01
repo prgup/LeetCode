@@ -1,28 +1,18 @@
 class Solution {
     public int[] plusOne(int[] digits) {
-        int carry=0;
-        int n = digits.length-1;
-        digits[n]++;
-        do {
-        int total = digits[n]+carry;
-        digits[n] = total%10;
-        carry= total/10;
-        n--;
-        }
-        while (carry>0 && n>-1);
 
-        if (carry!=0){
-            int [] newDigits = new int[digits.length+1];
-            newDigits[0]=carry;
-            int i=1;
-            for (int digit : digits){
-                newDigits[i]=digit;
-                i++;
-            }
-            return newDigits;
-        }
-        return digits;
+        int n = digits.length;
 
-        
+        for (int i = n - 1; i >= 0; i--) {
+            if (digits[i] < 9) {
+                digits[i]++;
+                return digits;
+            } else
+                digits[i] = 0;
+        }
+//  if we reach here means, all the remainig digit is zero;
+        int[] newDigits = new int[n + 1];
+        newDigits[0] = 1;
+        return newDigits;
     }
 }
