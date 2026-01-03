@@ -143,6 +143,7 @@
 | [0518-coin-change-ii](https://github.com/prgup/LeetCode/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/prgup/LeetCode/tree/master/0647-palindromic-substrings) |
 | [1250-longest-common-subsequence](https://github.com/prgup/LeetCode/tree/master/1250-longest-common-subsequence) |
+| [1527-number-of-ways-to-paint-n-3-grid](https://github.com/prgup/LeetCode/tree/master/1527-number-of-ways-to-paint-n-3-grid) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2001-jump-game-vii](https://github.com/prgup/LeetCode/tree/master/2001-jump-game-vii) |
 ## Greedy
