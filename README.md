@@ -58,6 +58,7 @@
 | [0883-car-fleet](https://github.com/prgup/LeetCode/tree/master/0883-car-fleet) |
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/prgup/LeetCode/tree/master/1001-n-repeated-element-in-size-2n-array) |
+| [1284-four-divisors](https://github.com/prgup/LeetCode/tree/master/1284-four-divisors) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2139-detect-squares](https://github.com/prgup/LeetCode/tree/master/2139-detect-squares) |
@@ -167,6 +168,7 @@
 | [0268-missing-number](https://github.com/prgup/LeetCode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/prgup/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
+| [1284-four-divisors](https://github.com/prgup/LeetCode/tree/master/1284-four-divisors) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Tree
