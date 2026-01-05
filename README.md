@@ -61,6 +61,7 @@
 | [1284-four-divisors](https://github.com/prgup/LeetCode/tree/master/1284-four-divisors) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [2089-maximum-matrix-sum](https://github.com/prgup/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2139-detect-squares](https://github.com/prgup/LeetCode/tree/master/2139-detect-squares) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/prgup/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -116,6 +117,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/prgup/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2089-maximum-matrix-sum](https://github.com/prgup/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Dynamic Programming
@@ -155,6 +157,7 @@
 | [0055-jump-game](https://github.com/prgup/LeetCode/tree/master/0055-jump-game) |
 | [0435-non-overlapping-intervals](https://github.com/prgup/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0876-hand-of-straights](https://github.com/prgup/LeetCode/tree/master/0876-hand-of-straights) |
+| [2089-maximum-matrix-sum](https://github.com/prgup/LeetCode/tree/master/2089-maximum-matrix-sum) |
 ## Math
 |  |
 | ------- |
