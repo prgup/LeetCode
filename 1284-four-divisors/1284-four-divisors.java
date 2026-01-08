@@ -2,33 +2,25 @@ class Solution {
 
     public int sumFourDivisors(int[] nums) {
 
-        int n = Arrays.stream(nums).max().orElse(0);
+        int n = Arrays.stream(nums).max().orElse(0);//n
         int [] sieve = new int [n+1];
 
         Arrays.fill(sieve,1);
+        sieve[0]=0;
+        sieve[1]=0;
         sieveOfE(n, sieve);
-        Set <Integer> set = new HashSet<>();
-        for (int i=2; i<n+1; i++){
-            if (sieve[i]==1){
-                set.add(i);
-            }
-        }
         
-        // n*n brute force
-        //n*sqrt(n)
-        //n*log(log(n))  
-
         int ans = 0;
         for (int i : nums) {
 
             int c = (int) Math.cbrt(i);
-            if ((int) Math.pow(c, 3) == i && set.contains(c)){
+            if ((int) Math.pow(c, 3) == i && sieve[c]==1){
                 ans += 1+c+c*c+i;
                 System.out.println(i);
                 continue;
             }
-            for (int j : set){
-                if (i%j==0 && set.contains(i/j) && (j != i/j)){
+            for (int j =2; j*j<=i; j++ ){
+                if (i%j==0 && sieve[i/j]==1 && (j != i/j)){
                     ans+= 1 + i +j + i/j;
                     System.out.println(i);
                     break;
