@@ -19,8 +19,8 @@ class Solution {
                 System.out.println(i);
                 continue;
             }
-            for (int j =2; j*j<=i; j++ ){
-                if (i%j==0 && sieve[i/j]==1 && (j != i/j)){
+            for (int j =2; j*j<=i+1; j++ ){
+                if (i%j==0 && sieve[i/j]==1 && sieve[j]==1 && (j != i/j)){
                     ans+= 1 + i +j + i/j;
                     System.out.println(i);
                     break;
