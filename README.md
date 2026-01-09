@@ -191,6 +191,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/prgup/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/prgup/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
+| [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/prgup/LeetCode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/prgup/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/prgup/LeetCode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
 ## Depth-First Search
@@ -213,6 +214,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/prgup/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/prgup/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
+| [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/prgup/LeetCode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/prgup/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/prgup/LeetCode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
 ## Breadth-First Search
@@ -231,6 +233,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/prgup/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/prgup/LeetCode/tree/master/0774-maximum-depth-of-n-ary-tree) |
+| [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/prgup/LeetCode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/prgup/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -297,6 +300,7 @@
 | [0567-permutation-in-string](https://github.com/prgup/LeetCode/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-hand-of-straights](https://github.com/prgup/LeetCode/tree/master/0876-hand-of-straights) |
+| [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/prgup/LeetCode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/prgup/LeetCode/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [2139-detect-squares](https://github.com/prgup/LeetCode/tree/master/2139-detect-squares) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -352,6 +356,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/prgup/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/prgup/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/prgup/LeetCode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/prgup/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/prgup/LeetCode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
 ## Divide and Conquer
