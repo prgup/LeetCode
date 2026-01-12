@@ -59,6 +59,7 @@
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/prgup/LeetCode/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [1284-four-divisors](https://github.com/prgup/LeetCode/tree/master/1284-four-divisors) |
+| [1395-minimum-time-visiting-all-points](https://github.com/prgup/LeetCode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1569-max-dot-product-of-two-subsequences](https://github.com/prgup/LeetCode/tree/master/1569-max-dot-product-of-two-subsequences) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -175,6 +176,7 @@
 | [0371-sum-of-two-integers](https://github.com/prgup/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1284-four-divisors](https://github.com/prgup/LeetCode/tree/master/1284-four-divisors) |
+| [1395-minimum-time-visiting-all-points](https://github.com/prgup/LeetCode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 ## Tree
@@ -473,4 +475,8 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/prgup/LeetCode/tree/master/0070-climbing-stairs) |
+## Geometry
+|  |
+| ------- |
+| [1395-minimum-time-visiting-all-points](https://github.com/prgup/LeetCode/tree/master/1395-minimum-time-visiting-all-points) |
 <!---LeetCode Topics End-->
