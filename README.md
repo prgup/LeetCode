@@ -69,6 +69,7 @@
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/prgup/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3763-separate-squares-i](https://github.com/prgup/LeetCode/tree/master/3763-separate-squares-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -80,6 +81,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/prgup/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
+| [3763-separate-squares-i](https://github.com/prgup/LeetCode/tree/master/3763-separate-squares-i) |
 ## Sorting
 |  |
 | ------- |
