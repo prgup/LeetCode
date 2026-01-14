@@ -72,6 +72,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3763-separate-squares-i](https://github.com/prgup/LeetCode/tree/master/3763-separate-squares-i) |
+| [3775-separate-squares-ii](https://github.com/prgup/LeetCode/tree/master/3775-separate-squares-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -84,6 +85,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0912-random-pick-with-weight](https://github.com/prgup/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [3763-separate-squares-i](https://github.com/prgup/LeetCode/tree/master/3763-separate-squares-i) |
+| [3775-separate-squares-ii](https://github.com/prgup/LeetCode/tree/master/3775-separate-squares-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -489,4 +491,12 @@
 |  |
 | ------- |
 | [1395-minimum-time-visiting-all-points](https://github.com/prgup/LeetCode/tree/master/1395-minimum-time-visiting-all-points) |
+## Segment Tree
+|  |
+| ------- |
+| [3775-separate-squares-ii](https://github.com/prgup/LeetCode/tree/master/3775-separate-squares-ii) |
+## Line Sweep
+|  |
+| ------- |
+| [3775-separate-squares-ii](https://github.com/prgup/LeetCode/tree/master/3775-separate-squares-ii) |
 <!---LeetCode Topics End-->
