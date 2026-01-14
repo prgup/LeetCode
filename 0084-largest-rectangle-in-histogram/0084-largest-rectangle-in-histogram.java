@@ -35,7 +35,7 @@ class Solution {
                     temp = n*heights[j];
                 }
                 else
-                    temp = (i-j)*heights[j];
+                    temp = (i-stack.peekLast()-1)*heights[j];
                 
                 ans = Math.max(temp, ans);
             }
