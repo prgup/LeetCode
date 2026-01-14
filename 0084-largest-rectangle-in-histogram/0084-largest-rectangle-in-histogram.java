@@ -16,11 +16,11 @@ class Solution {
                 int j = stack.pollLast();
                 int temp;
                 if (stack.isEmpty()){
-                    System.out.println(j + " "+ heights[j]);
+                    // System.out.println(j + " "+ heights[j]);
                     temp = (j+1)*heights[j];
                 }
                 else
-                    temp = (i-j)*heights[j];
+                    temp = (i-stack.peekLast()-1)*heights[j];
                 ans = Math.max(temp, ans);
             }
             stack.offer(i);
