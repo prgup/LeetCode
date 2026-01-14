@@ -19,7 +19,6 @@ class Solution {
                 int j = stack.pop();
                 int temp = (i-j)*heights[j];
                 ans = Math.max(temp, ans);
-                i =j;
             }
 
 
