@@ -17,7 +17,7 @@ class Solution {
                 int temp;
                 if (stack.isEmpty()){
                     // System.out.println(j + " "+ heights[j]);
-                    temp = (j+1)*heights[j];
+                    temp = (i)*heights[j];
                 }
                 else
                     temp = (i-stack.peekLast()-1)*heights[j];
