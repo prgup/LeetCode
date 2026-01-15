@@ -71,6 +71,7 @@
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/prgup/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3214-maximize-area-of-square-hole-in-grid](https://github.com/prgup/LeetCode/tree/master/3214-maximize-area-of-square-hole-in-grid) |
 | [3763-separate-squares-i](https://github.com/prgup/LeetCode/tree/master/3763-separate-squares-i) |
 | [3775-separate-squares-ii](https://github.com/prgup/LeetCode/tree/master/3775-separate-squares-ii) |
 ## Binary Search
@@ -105,6 +106,7 @@
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3214-maximize-area-of-square-hole-in-grid](https://github.com/prgup/LeetCode/tree/master/3214-maximize-area-of-square-hole-in-grid) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
