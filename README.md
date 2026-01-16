@@ -72,6 +72,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3214-maximize-area-of-square-hole-in-grid](https://github.com/prgup/LeetCode/tree/master/3214-maximize-area-of-square-hole-in-grid) |
+| [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/prgup/LeetCode/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
 | [3763-separate-squares-i](https://github.com/prgup/LeetCode/tree/master/3763-separate-squares-i) |
 | [3775-separate-squares-ii](https://github.com/prgup/LeetCode/tree/master/3775-separate-squares-ii) |
 ## Binary Search
@@ -318,6 +319,7 @@
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/prgup/LeetCode/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [2139-detect-squares](https://github.com/prgup/LeetCode/tree/master/2139-detect-squares) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/prgup/LeetCode/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
 ## Two Pointers
 |  |
 | ------- |
@@ -501,4 +503,8 @@
 |  |
 | ------- |
 | [3775-separate-squares-ii](https://github.com/prgup/LeetCode/tree/master/3775-separate-squares-ii) |
+## Enumeration
+|  |
+| ------- |
+| [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/prgup/LeetCode/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
 <!---LeetCode Topics End-->
