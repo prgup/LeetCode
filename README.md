@@ -507,4 +507,8 @@
 |  |
 | ------- |
 | [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/prgup/LeetCode/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/prgup/LeetCode/tree/master/0584-find-customer-referee) |
 <!---LeetCode Topics End-->
