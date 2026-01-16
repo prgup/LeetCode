@@ -1,40 +1,36 @@
-import java.util.*;
-
 class Solution {
     public double separateSquares(int[][] squares) {
-        double totalArea = 0;
-        double low = Double.MAX_VALUE;
-        double high = Double.MIN_VALUE;
-
-        for (int[] s : squares) {
-            double y = s[1];
-            double l = s[2];
-            totalArea += l * l;
-            low = Math.min(low, y);
-            high = Math.max(high, y + l);
+        double totalArea=0.0;
+        ArrayList<double []> events  = new ArrayList<>();
+        for (int [] square : squares){
+            double y = square[1], length = square[2];
+            events.add(new double []  {y, length});
+            events.add(new double []  {y+length, -length});
+            totalArea+=length*length;
         }
 
-        double targetArea = totalArea / 2.0;
+        events.sort((x , y) -> Double.compare(x[0],y[0]));
 
-        for (int i = 0; i < 100; i++) {
-            double mid = low + (high - low) / 2.0;
-            double currentArea = 0;
+        double target =totalArea/2.00;
+        double prevY=0.0, currArea=0.0, prevW=0.0; 
 
-            for (int[] s : squares) {
-                double y = s[1];
-                double l = s[2];
-                
-                double hBelow = Math.max(0, Math.min(l, mid - y));
-                currentArea += hBelow * l;
+        for (double [] event : events){
+            double y = event[0], width =event[1];
+
+            double change = y-prevY;
+            currArea+= change*prevW;
+
+            if (currArea >= target ){
+                double prevArea = currArea-change*prevW;
+                double need = target  -  prevArea;
+                return prevY + need/prevW;
             }
 
-            if (currentArea < targetArea) {
-                low = mid;
-            } else {
-                high = mid;
-            }
+            prevY = y;
+            prevW+=width;
         }
 
-        return high;
+        return -1;
+
     }
 }
