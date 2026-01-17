@@ -73,6 +73,7 @@
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3214-maximize-area-of-square-hole-in-grid](https://github.com/prgup/LeetCode/tree/master/3214-maximize-area-of-square-hole-in-grid) |
 | [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/prgup/LeetCode/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
+| [3325-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/prgup/LeetCode/tree/master/3325-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3763-separate-squares-i](https://github.com/prgup/LeetCode/tree/master/3763-separate-squares-i) |
 | [3775-separate-squares-ii](https://github.com/prgup/LeetCode/tree/master/3775-separate-squares-ii) |
 ## Binary Search
@@ -190,6 +191,7 @@
 | [1395-minimum-time-visiting-all-points](https://github.com/prgup/LeetCode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [3325-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/prgup/LeetCode/tree/master/3325-find-the-largest-area-of-square-inside-two-rectangles) |
 ## Tree
 |  |
 | ------- |
@@ -495,6 +497,7 @@
 |  |
 | ------- |
 | [1395-minimum-time-visiting-all-points](https://github.com/prgup/LeetCode/tree/master/1395-minimum-time-visiting-all-points) |
+| [3325-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/prgup/LeetCode/tree/master/3325-find-the-largest-area-of-square-inside-two-rectangles) |
 ## Segment Tree
 |  |
 | ------- |
