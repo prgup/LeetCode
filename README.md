@@ -75,6 +75,7 @@
 | [3214-maximize-area-of-square-hole-in-grid](https://github.com/prgup/LeetCode/tree/master/3214-maximize-area-of-square-hole-in-grid) |
 | [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/prgup/LeetCode/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
 | [3325-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/prgup/LeetCode/tree/master/3325-find-the-largest-area-of-square-inside-two-rectangles) |
+| [3605-construct-the-minimum-bitwise-array-i](https://github.com/prgup/LeetCode/tree/master/3605-construct-the-minimum-bitwise-array-i) |
 | [3763-separate-squares-i](https://github.com/prgup/LeetCode/tree/master/3763-separate-squares-i) |
 | [3775-separate-squares-ii](https://github.com/prgup/LeetCode/tree/master/3775-separate-squares-ii) |
 ## Binary Search
@@ -414,6 +415,7 @@
 | [0268-missing-number](https://github.com/prgup/LeetCode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/prgup/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0371-sum-of-two-integers](https://github.com/prgup/LeetCode/tree/master/0371-sum-of-two-integers) |
+| [3605-construct-the-minimum-bitwise-array-i](https://github.com/prgup/LeetCode/tree/master/3605-construct-the-minimum-bitwise-array-i) |
 ## Design
 |  |
 | ------- |
