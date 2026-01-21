@@ -197,6 +197,7 @@
 | [1395-minimum-time-visiting-all-points](https://github.com/prgup/LeetCode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [3172-divisible-and-non-divisible-sums-difference](https://github.com/prgup/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3325-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/prgup/LeetCode/tree/master/3325-find-the-largest-area-of-square-inside-two-rectangles) |
 ## Tree
 |  |
