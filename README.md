@@ -78,6 +78,7 @@
 | [3325-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/prgup/LeetCode/tree/master/3325-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3605-construct-the-minimum-bitwise-array-i](https://github.com/prgup/LeetCode/tree/master/3605-construct-the-minimum-bitwise-array-i) |
 | [3763-separate-squares-i](https://github.com/prgup/LeetCode/tree/master/3763-separate-squares-i) |
+| [3773-minimum-pair-removal-to-sort-array-i](https://github.com/prgup/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
 | [3775-separate-squares-ii](https://github.com/prgup/LeetCode/tree/master/3775-separate-squares-ii) |
 ## Binary Search
 |  |
@@ -121,6 +122,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/prgup/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [3773-minimum-pair-removal-to-sort-array-i](https://github.com/prgup/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
 ## Matrix
 |  |
 | ------- |
@@ -330,6 +332,7 @@
 | [2139-detect-squares](https://github.com/prgup/LeetCode/tree/master/2139-detect-squares) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3250-maximum-square-area-by-removing-fences-from-a-field](https://github.com/prgup/LeetCode/tree/master/3250-maximum-square-area-by-removing-fences-from-a-field) |
+| [3773-minimum-pair-removal-to-sort-array-i](https://github.com/prgup/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -363,6 +366,7 @@
 | [0141-linked-list-cycle](https://github.com/prgup/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/prgup/LeetCode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/prgup/LeetCode/tree/master/0206-reverse-linked-list) |
+| [3773-minimum-pair-removal-to-sort-array-i](https://github.com/prgup/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -524,4 +528,16 @@
 |  |
 | ------- |
 | [0584-find-customer-referee](https://github.com/prgup/LeetCode/tree/master/0584-find-customer-referee) |
+## Simulation
+|  |
+| ------- |
+| [3773-minimum-pair-removal-to-sort-array-i](https://github.com/prgup/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [3773-minimum-pair-removal-to-sort-array-i](https://github.com/prgup/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
+## Ordered Set
+|  |
+| ------- |
+| [3773-minimum-pair-removal-to-sort-array-i](https://github.com/prgup/LeetCode/tree/master/3773-minimum-pair-removal-to-sort-array-i) |
 <!---LeetCode Topics End-->
