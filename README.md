@@ -67,6 +67,7 @@
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/prgup/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1569-max-dot-product-of-two-subsequences](https://github.com/prgup/LeetCode/tree/master/1569-max-dot-product-of-two-subsequences) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/prgup/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1988-minimize-maximum-pair-sum-in-array](https://github.com/prgup/LeetCode/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2089-maximum-matrix-sum](https://github.com/prgup/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2139-detect-squares](https://github.com/prgup/LeetCode/tree/master/2139-detect-squares) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -110,6 +111,7 @@
 | [0435-non-overlapping-intervals](https://github.com/prgup/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0876-hand-of-straights](https://github.com/prgup/LeetCode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/prgup/LeetCode/tree/master/0883-car-fleet) |
+| [1988-minimize-maximum-pair-sum-in-array](https://github.com/prgup/LeetCode/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/prgup/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/prgup/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -180,6 +182,7 @@
 | [0055-jump-game](https://github.com/prgup/LeetCode/tree/master/0055-jump-game) |
 | [0435-non-overlapping-intervals](https://github.com/prgup/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0876-hand-of-straights](https://github.com/prgup/LeetCode/tree/master/0876-hand-of-straights) |
+| [1988-minimize-maximum-pair-sum-in-array](https://github.com/prgup/LeetCode/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2089-maximum-matrix-sum](https://github.com/prgup/LeetCode/tree/master/2089-maximum-matrix-sum) |
 ## Math
 |  |
@@ -351,6 +354,7 @@
 | [0567-permutation-in-string](https://github.com/prgup/LeetCode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/prgup/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/prgup/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1988-minimize-maximum-pair-sum-in-array](https://github.com/prgup/LeetCode/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/prgup/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Union Find
 |  |
